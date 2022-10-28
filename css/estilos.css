@@ -1,0 +1,17 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#pantalla{
+    margin-left: 33%;
+}
+.text{
+}
+.boton{
+    display: flex;
+}
+
+.boton:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 10px;
+}
