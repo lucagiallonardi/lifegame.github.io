@@ -1,9 +1,3 @@
 #pantalla{
     margin-left: 33%;
 }
-
-.boton:hover{
-    background-color: blueviolet;
-    cursor: pointer;
-    border-radius: 10px;
-}
