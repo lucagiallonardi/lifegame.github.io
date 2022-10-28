@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title></title>
   </head>
-  <body onload="inicializa()">
+  <body onload="inicializa()" styles="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'">
     <div class="text">
     <h2>Bienvenidos al Juego de la Vida</h2>
     <h3>Imaginemos que cada pixel es una celula...</h3>
@@ -17,7 +17,7 @@
       <li>Si una celula tiene mas de 3 celulas vecinas se muere</li>
       </ul>
     </div>
-    <button onclick= "inicializa()" class="boton">REFRESCAR</button>
+    <button onclick= "inicializa()" class="boton" styles="display">REFRESCAR</button>
     <script src="js/juego.js"></script>
     <canvas id="pantalla" style="border:1px solid black"></canvas>
   </body>
